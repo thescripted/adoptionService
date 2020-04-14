@@ -1,11 +1,11 @@
 import React from "react";
 
 const Pet = (props) => {
-  const {name, animal, breed, media, location, id} = props
+  const { name, animal, breed, media, location, id } = props;
 
   let hero = "http://placecorgi.com/300/300";
   if (media.length) {
-    hero=media[0].small;
+    hero = media[0].small;
   }
 
   return (
